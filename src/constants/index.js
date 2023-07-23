@@ -174,7 +174,7 @@ const projects = [
 	{
 		name: "Website",
 		description:
-			"Personal project tasked from the	Bootcamp in order to sharpen DOM manipulation with the use of Canvas and exercing OOP classes.",
+			"My personal portfolio website: A sleek, tech-infused showcase of my work, skills, and creativity. Connect with me and explore my digital universe.",
 		tags: [
 			{
 				name: "threeJs",
@@ -192,8 +192,8 @@ const projects = [
 			},
 		],
 		image: website,
-		source_code_link: "https://github.com/gtildis/Tower-Defense-Dom",
-		live_link: "https://gtildis.github.io/Tower-Defense-Dom/",
+		source_code_link: "https://github.com/gtildis/website",
+		live_link: "https://greg-tildis.netlify.app/",
 	},
 	{
 		name: "RootSeeker",
