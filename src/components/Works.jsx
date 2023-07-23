@@ -18,7 +18,7 @@ const ProjectCard = ({
 }) => {
 	return (
 		<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-			<div
+			<Tilt
 				options={{ max: 45, scale: 1, speed: 450 }}
 				className="w-full p-5 md:flex bg-tertiary rounded-2xl"
 			>
@@ -30,7 +30,7 @@ const ProjectCard = ({
 					/>
 				</div>
 
-				<div className="flex flex-col justify-center mt-3 mx-9 md:w-1/2 ">
+				<div className="flex flex-col justify-center w-full mt-3 mx-9 md:w-1/2 ">
 					<h3 className="text-white font-bold text-[24px]">{name}</h3>
 					<p className="mt-2 mb-4 text-secondary text-[14px]">{description}</p>
 					<div
@@ -62,7 +62,7 @@ const ProjectCard = ({
 						</div>
 					</div>
 				</div>
-			</div>
+			</Tilt>
 		</motion.div>
 	);
 };
