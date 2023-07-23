@@ -1,0 +1,11 @@
+Model Information:
+* title:	Robot man in Ao dai
+* source:	https://sketchfab.com/3d-models/robot-man-in-ao-dai-a7df982eeade47598c64249981cda3a0
+* author:	nhổ tóc (https://sketchfab.com/nhotok)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Robot man in Ao dai" (https://sketchfab.com/3d-models/robot-man-in-ao-dai-a7df982eeade47598c64249981cda3a0) by nhổ tóc (https://sketchfab.com/nhotok) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
