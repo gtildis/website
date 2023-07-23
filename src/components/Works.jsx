@@ -30,7 +30,7 @@ const ProjectCard = ({
 					/>
 				</div>
 
-				<div className="flex flex-col justify-center w-full mt-3 mx-9 md:w-1/2 ">
+				<div className="flex flex-col justify-center w-full mt-3 lg:mx-9 md:w-1/2 ">
 					<h3 className="text-white font-bold text-[24px]">{name}</h3>
 					<p className="mt-2 mb-4 text-secondary text-[14px]">{description}</p>
 					<div
