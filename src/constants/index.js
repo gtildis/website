@@ -113,18 +113,6 @@ const technologies = [
 		name: "Express",
 		icon: express,
 	},
-	{
-		name: "Canvas",
-		icon: canvas,
-	},
-	{
-		name: "Leaflet",
-		icon: leaflet,
-	},
-	{
-		name: "Express",
-		icon: express,
-	},
 ];
 
 const experiences = [
