@@ -114,13 +114,13 @@ const ProjectCard = ({
 const Works = () => {
 	return (
 		<div>
-			<motion.div variants={textVariant()}>
+			<div>
 				<p className={styles.sectionSubText}>My work</p>
 				<h2 className={styles.sectionHeadText}>Projects</h2>
-			</motion.div>
+			</div>
 
 			<div className="flex w-full">
-				<motion.p
+				<p
 					variants={fadeIn("", "", 0.1, 1)}
 					className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
 				>
@@ -129,7 +129,7 @@ const Works = () => {
 					repositories and live demos in it. It reflects my ability to solve
 					problems, work with different technologies, and manage projects
 					effeciently
-				</motion.p>
+				</p>
 			</div>
 
 			<div className="flex flex-col items-center justify-center w-full mt-20 gap-7">
