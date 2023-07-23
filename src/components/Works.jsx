@@ -1,5 +1,5 @@
 import React, { Profiler } from "react";
-import { Tilt } from "react-tilt";
+// import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
@@ -17,11 +17,55 @@ const ProjectCard = ({
 	live_link,
 }) => {
 	return (
-		<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-			<Tilt
-				options={{ max: 45, scale: 1, speed: 450 }}
-				className="w-full p-5 md:flex bg-tertiary rounded-2xl"
-			>
+		// <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+		// 	<Tilt
+		// 		options={{ max: 45, scale: 1, speed: 450 }}
+		// 		className="w-full p-5 md:flex bg-tertiary rounded-2xl"
+		// 	>
+		// 		<div className="w-full md:w-1/2 h-[330px]">
+		// 			<img
+		// 				src={image}
+		// 				alt={name}
+		// 				className="object-cover w-full h-full rounded-2xl"
+		// 			/>
+		// 		</div>
+
+		// 		<div className="flex flex-col justify-center w-full mt-3 lg:mx-9 md:w-1/2 ">
+		// 			<h3 className="text-white font-bold text-[24px]">{name}</h3>
+		// 			<p className="mt-2 mb-4 text-secondary text-[14px]">{description}</p>
+		// 			<div
+		// 				onClick={() => window.open(live_link, "_blank")}
+		// 				className="text-white my-3 text-[14px] cursor-pointer"
+		// 			>
+		// 				<p>{live_link}</p>
+		// 			</div>
+		// 			<div className="flex flex-wrap gap-2 my-4">
+		// 				{tags.map((tag, index) => (
+		// 					<div
+		// 						key={index}
+		// 						className="flex items-center justify-center w-10 h-10 rounded-full"
+		// 					>
+		// 						<img className="" src={tag.icon} alt={tag.name} />
+		// 					</div>
+		// 				))}
+		// 			</div>
+		// 			<div className="flex justify-start md:flex-row card-img_hover">
+		// 				<div
+		// 					onClick={() => window.open(source_code_link, "_blank")}
+		// 					className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
+		// 				>
+		// 					<img
+		// 						src={github}
+		// 						alt="github"
+		// 						className="object-contain w-1/2 h-1/2"
+		// 					/>
+		// 				</div>
+		// 			</div>
+		// 		</div>
+		// 	</Tilt>
+		// </motion.div>
+		<div>
+			<div className="w-full p-5 md:flex bg-tertiary rounded-2xl">
 				<div className="w-full md:w-1/2 h-[330px]">
 					<img
 						src={image}
@@ -62,8 +106,8 @@ const ProjectCard = ({
 						</div>
 					</div>
 				</div>
-			</Tilt>
-		</motion.div>
+			</div>
+		</div>
 	);
 };
 
