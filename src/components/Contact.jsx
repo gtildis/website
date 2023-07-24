@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { CyberPunkCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-// import CyberPunkCanvas from "./canvas/Earth";
+import { github, linkedin } from "../assets";
 
 //template_m2159ip
 //service_orgplll
@@ -70,13 +70,51 @@ const Contact = () => {
 				<p className={styles.sectionSubText}>Get in touch</p>
 				<h3 className={styles.sectionHeadText}>Contact</h3>
 
+				<div className="flex flex-row justify-between">
+					<div className="flex-start">
+						<h3>Greg Tildis</h3>
+						<h3>gretil_15@hotmail.com</h3>
+					</div>
+					<div className="flex-end">
+						<div className="flex justify-start md:flex-row card-img_hover">
+							<div
+								onClick={() =>
+									window.open("https://www.github.com/gtildis/", "_blank")
+								}
+								className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
+							>
+								<img
+									src={github}
+									alt="github"
+									className="object-contain w-1/2 h-1/2"
+								/>
+							</div>
+							<div
+								onClick={() =>
+									window.open(
+										"https://www.linkedin.com/in/gregory-tildis-junior-react/",
+										"_blank"
+									)
+								}
+								className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
+							>
+								<img
+									src={linkedin}
+									alt="linkedin"
+									className="object-contain w-1/2 h-1/2"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<form
 					ref={formRef}
 					onSubmit={handleSubmit}
-					className="flex flex-col gap-8 mt-12"
+					className="flex flex-col gap-8 mt-5"
 				>
 					<label className="flex flex-col">
-						<span className="mb-4 font-medium text-white">Your name</span>
+						<span className="mb-2 font-medium text-white">Your name</span>
 						<input
 							type="text"
 							name="name"
@@ -87,7 +125,7 @@ const Contact = () => {
 						/>
 					</label>
 					<label className="flex flex-col">
-						<span className="mb-4 font-medium text-white">Your email</span>
+						<span className="mb-2 font-medium text-white">Your email</span>
 						<input
 							type="email"
 							name="email"
@@ -98,7 +136,7 @@ const Contact = () => {
 						/>
 					</label>
 					<label className="flex flex-col">
-						<span className="mb-4 font-medium text-white">Your message</span>
+						<span className="mb-2 font-medium text-white">Your message</span>
 						<textarea
 							rows="7"
 							type="text"

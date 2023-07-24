@@ -1,5 +1,6 @@
 import logo from "./pineapple.png";
 import github from "./github.png";
+import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import backendDev from "./BackendDEv.png";
@@ -63,4 +64,5 @@ export {
 	canvas,
 	express,
 	website,
+	linkedin,
 };

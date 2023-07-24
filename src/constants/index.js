@@ -36,6 +36,10 @@ export const navLinks = [
 		title: "Work",
 	},
 	{
+		id: "projects",
+		title: "Projects",
+	},
+	{
 		id: "contact",
 		title: "Contact",
 	},
@@ -117,29 +121,16 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Actor / Assistant Director",
-		company_name: "National Theater of Northern Greece / Schema Without Axis",
-		icon: theater,
-		iconBg: "#E6DEDD",
-		date: "Aug 2013 - May 2018",
-		points: [
-			"Performing leading roles.",
-			"Use manual and computer-controlled lighting systems during the show.",
-			"Responsible for the stage design and the costumes.",
-			"Teaching acting methods, stage combat and movement",
-		],
-	},
-	{
-		title: "Graphic Designer",
-		company_name: "Freelancer",
-		icon: graphic,
+		title: `Career Change - Full Stack Developer`,
+		company_name: "Ironhack's Bootcamp on Web Development",
+		icon: ironhack,
 		iconBg: "#383E56",
-		date: "April 2010 - Dec 2020",
+		date: "May 2023 - July 2023",
 		points: [
-			"Illustrating concepts by designing examples of art arrangement, size, type size and style and submitting them for approval.",
-			"Preparing finished art by operating necessary equipment and software.",
-			"Creating a wide range of graphics and layouts for product illustrations, company logos with software such as Adobe Photoshop.",
-			"Reviewing final layouts and suggesting improvements when necessary.",
+			"I have gained the skills and hands-on experience needed to become a Software Developer.",
+			"Developed web applications using React.js and other related technologies.",
+			"Collaborating with cross-functional teams, and other developers to create high-quality products.",
+			"Implementing responsive design and ensuring cross-browser compatibility.",
 		],
 	},
 	{
@@ -156,16 +147,29 @@ const experiences = [
 		],
 	},
 	{
-		title: `Carrer Change - Full Stack Developer`,
-		company_name: "Ironhack's Bootcamp on Web Development",
-		icon: ironhack,
+		title: "Graphic Designer",
+		company_name: "Freelancer",
+		icon: graphic,
 		iconBg: "#383E56",
-		date: "May 2023 - July 2023",
+		date: "April 2010 - Dec 2020",
 		points: [
-			"I have gained the skills and hands-on experience needed to become a Software Developer.",
-			"Developed web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Illustrating concepts by designing examples of art arrangement, size, type size and style and submitting them for approval.",
+			"Preparing finished art by operating necessary equipment and software.",
+			"Creating a wide range of graphics and layouts for product illustrations, company logos with software such as Adobe Photoshop.",
+			"Reviewing final layouts and suggesting improvements when necessary.",
+		],
+	},
+	{
+		title: "Actor / Assistant Director",
+		company_name: "National Theater of Northern Greece / Schema Without Axis",
+		icon: theater,
+		iconBg: "#E6DEDD",
+		date: "Aug 2013 - May 2018",
+		points: [
+			"Performing leading roles.",
+			"Use manual and computer-controlled lighting systems during the show.",
+			"Responsible for the stage design and the costumes.",
+			"Teaching acting methods, stage combat and movement",
 		],
 	},
 ];
@@ -198,7 +202,7 @@ const projects = [
 	{
 		name: "RootSeeker",
 		description:
-			"A website platform for hosting outdoor activities.A MERN Full stack web application for tracking outdoor activities worldwide. The app allows users to draw paths on interactitve maps. It is responsive and supports CRUD operations, enablingusers to manage their activities effieciently.",
+			"A website platform for hosting outdoor activities. A MERN Full stack web application for tracking outdoor activities worldwide. The app allows users to draw paths on interactitve maps. It is responsive and supports CRUD operations, enablingusers to manage their activities effieciently.",
 		tags: [
 			{
 				name: "react",
