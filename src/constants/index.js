@@ -127,7 +127,7 @@ const experiences = [
 		iconBg: "#383E56",
 		date: "May 2023 - July 2023",
 		points: [
-			"I have gained the skills and hands-on experience needed to become a Software Developer.",
+			"After diligently acquiring an array of technical skills and immersing myself in extensive hands-on experience, I aspire to embrace the path of a Software Developer.",
 			"Developed web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams, and other developers to create high-quality products.",
 			"Implementing responsive design and ensuring cross-browser compatibility.",
