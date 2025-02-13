@@ -26,7 +26,9 @@ import canvas from "./canvas.png";
 import scuba from "./company/scuba.png";
 import graphic from "./company/graphic.png";
 import theater from "./company/theater.png";
+import venduetech from "./company/venduetech.png";
 import ironhack from "./company/ironhack.png";
+import sitespect from "./company/sitespect.png";
 
 import website from "./gregowebsite.png";
 import td from "./td.png";
@@ -34,35 +36,37 @@ import divebook from "./DiveBook.png";
 import rootseeker from "./Rootseeker.png";
 
 export {
-	logo,
-	github,
-	menu,
-	close,
-	css,
-	figma,
-	git,
-	html,
-	javascript,
-	mongodb,
-	nodejs,
-	reactjs,
-	redux,
-	tailwind,
-	threejs,
-	td,
-	divebook,
-	rootseeker,
-	theater,
-	graphic,
-	scuba,
-	ironhack,
-	backendDev,
-	webDev,
-	reactDev,
-	scubaDev,
-	leaflet,
-	canvas,
-	express,
-	website,
-	linkedin,
+  logo,
+  github,
+  menu,
+  close,
+  css,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwind,
+  threejs,
+  td,
+  divebook,
+  rootseeker,
+  theater,
+  graphic,
+  scuba,
+  ironhack,
+  backendDev,
+  webDev,
+  reactDev,
+  scubaDev,
+  leaflet,
+  canvas,
+  express,
+  website,
+  linkedin,
+  venduetech,
+  sitespect,
 };
